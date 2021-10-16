@@ -154,16 +154,15 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span className="hero__name">Federico Acosta</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              I am working as a remote designer and developer for +2 years. I
+              love to design and make new experiences for the people.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
@@ -180,7 +179,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    IN
                   </a>
                 </li>
                 <li>
@@ -189,7 +188,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    TW
+                    GH
                   </a>
                 </li>
                 <li>
@@ -198,16 +197,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    IG
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://webcifar.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LI
+                    FCC
                   </a>
                 </li>
               </ul>
