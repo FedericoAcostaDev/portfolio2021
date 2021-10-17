@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/about.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -114,16 +114,16 @@ export default function About() {
               <h1 className="about__info__heading">Education</h1>
 
               <AboutInfoItem
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                title="BootCamp"
+                items={['Udemy | Javascript Mastery ']}
               />
               <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                title="BootCamp"
+                items={['Udemy | Full-Stack Mastery']}
               />
               <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                title="University"
+                items={['Architect & Urbanist | University Of Mendoza']}
               />
             </div>
             <div className="about__info__item">
@@ -137,6 +137,7 @@ export default function About() {
                 title="BackEnd"
                 items={['Node', 'Express', 'PHP']}
               />
+              <AboutInfoItem title="Database" items={['Nodemon', 'SQL']} />
               <AboutInfoItem
                 title="Design"
                 items={['Photoshop', 'After Effects', 'Figma']}
@@ -146,16 +147,16 @@ export default function About() {
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="2021-"
+                items={['Front end developer at ModdPro']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                title="2020-2021"
+                items={['Front end developer at Kisafix ']}
               />
               <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="2019-2020"
+                items={['Front-End developer at LV16 News']}
               />
             </div>
           </div>

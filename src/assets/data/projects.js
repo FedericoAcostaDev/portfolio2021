@@ -26,9 +26,14 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+    name: 'Old Portfolio',
+    desc: 'My old portfolio. React.js',
+    img: GreenCtgImg,
+  },
+  {
+    id: uuidv4(),
+    name: 'Mix-or-Match',
+    desc: 'A game App using CSS, HTML, JS',
     img: GreenCtgImg,
   },
 ];
