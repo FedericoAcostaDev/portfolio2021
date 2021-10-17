@@ -22,7 +22,7 @@ const projects = [
     id: uuidv4(),
     name: 'Face Detector',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
+      'This website will recognize faces in images through an API. SQL database',
     img: Face,
   },
   {
