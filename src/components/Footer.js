@@ -57,11 +57,10 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Federico Acosta</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            A Remote developer from Argentina. I always make websites that have
+            unique designs and also has a good performance rate.
           </PText>
         </div>
         <div className="footer__col2">
@@ -96,16 +95,17 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+543584387574',
+                path: 'tel:+5493584387574',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'fedeacos045@gmail.com',
+                path: 'mailto:fedeacos045@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
-                path: 'http://google.com/maps',
+                title: 'Argentina',
+                path:
+                  'https://www.google.com/maps/place/R%C3%ADo+Cuarto,+C%C3%B3rdoba/@-33.1242434,-64.4122289,12z/data=!3m1!4b1!4m5!3m4!1s0x95d2000fbdd02247:0xc58d0a705d7cc0e3!8m2!3d-33.1226007!4d-64.3496704',
               },
             ]}
           />
@@ -115,16 +115,16 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
+                title: 'LinkedIn',
+                path: 'https://www.linkedin.com/in/fede-acosta-b11a22211/',
               },
               {
-                title: 'Twitter',
-                path: 'http://twitter.com',
+                title: 'GitHub',
+                path: 'https://github.com/FedericoAcostaDev',
               },
               {
-                title: 'Instagram',
-                path: 'http://instagram.com',
+                title: 'FreeCodeCamp',
+                path: 'https://www.freecodecamp.org/fedexx45',
               },
             ]}
           />
@@ -132,12 +132,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
+          <PText>2021 - Designed By Federico Acosta </PText>
         </div>
       </div>
     </FooterStyle>
