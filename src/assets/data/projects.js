@@ -1,7 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
 import Trade from '../images/trade.png';
 import Yolo from '../images/Yolo.png';
-import GreenCtgImg from '../images/greenctg.jpg';
+import MomImg from '../images/mixormatch.png';
+import Portfolio from '../images/oldportfolio.png';
 import Face from '../images/Face.png';
 
 const projects = [
@@ -28,13 +29,13 @@ const projects = [
     id: uuidv4(),
     name: 'Old Portfolio',
     desc: 'My old portfolio. React.js',
-    img: GreenCtgImg,
+    img: Portfolio,
   },
   {
     id: uuidv4(),
     name: 'Mix-or-Match',
     desc: 'A game App using CSS, HTML, JS',
-    img: GreenCtgImg,
+    img: MomImg,
   },
 ];
 
