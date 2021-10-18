@@ -103,7 +103,7 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <Button btnText="SEE CV" btnLink="/resume.pdf" />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
