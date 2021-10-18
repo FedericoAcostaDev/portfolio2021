@@ -132,7 +132,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>2021 - Designed By Federico Acosta </PText>
+          <PText>2021 - Designed By Shaif Arfan & Federico Acosta </PText>
         </div>
       </div>
     </FooterStyle>
