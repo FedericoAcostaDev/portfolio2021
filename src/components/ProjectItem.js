@@ -40,18 +40,17 @@ export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  link,
 }) {
   return (
     <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
+      <a href={link}>
         <img src={img} alt="project img" />
-      </Link>
-      <div className="projectItem__info">
-        <Link to="#">
+        <div className="projectItem__info">
           <h3 className="projectItem__title">{title}</h3>
-        </Link>
-        <p className="projectItem__desc">{desc}</p>
-      </div>
+          <p className="projectItem__desc">{desc}</p>
+        </div>
+      </a>
     </ProjectItemStyles>
   );
 }
