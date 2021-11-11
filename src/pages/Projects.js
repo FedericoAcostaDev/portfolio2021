@@ -13,6 +13,9 @@ const ProjectStyle = styled.div`
     gap: 5rem;
     margin-top: 5rem;
   }
+  .project_item {
+    margin-bottom: 50rem;
+  }
   .projects__searchBar {
     position: relative;
     width: 300px;
@@ -85,6 +88,7 @@ export default function Projects() {
           <div className="projects__allItems">
             {projectsData.map((item) => (
               <ProjectItem
+                className="project_item"
                 key={item.id}
                 title={item.name}
                 desc={item.desc}
