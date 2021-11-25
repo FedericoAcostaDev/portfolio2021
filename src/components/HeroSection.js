@@ -34,7 +34,7 @@ const HeroStyles = styled.div`
   .hero__img {
     max-width: 900px;
     width: 100%;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
     border: 2px solid var(--gray-1);
   }
@@ -175,7 +175,7 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://www.linkedin.com/in/fede-acosta-b11a22211/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -184,7 +184,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
+                    href="https://github.com/FedericoAcostaDev"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -193,7 +193,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://www.freecodecamp.org/fedexx45"
                     target="_blank"
                     rel="noreferrer"
                   >
