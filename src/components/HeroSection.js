@@ -164,7 +164,7 @@ export default function HeroSection() {
               I am working as a remote designer and developer for +2 years. I
               love to design and make new experiences for the people.
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="See my works" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">

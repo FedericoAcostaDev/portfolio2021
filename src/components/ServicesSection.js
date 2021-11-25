@@ -42,7 +42,7 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<MdCloudQueue />}
             title="Databases"
-            desc="Databases from API's, and SQL unique databases"
+            desc="Databases from API's, and SQL unique databases."
           />
         </div>
       </div>

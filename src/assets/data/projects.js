@@ -8,8 +8,8 @@ import Face from '../images/Face.png';
 const projects = [
   {
     id: uuidv4(),
-    name: 'YoLo ecommerce',
-    desc: ' chlotes for women, created in React.js',
+    name: 'YoLo Ecommerce',
+    desc: ' Chlotes for women, created in React.js',
     img: Yolo,
     link: 'https://yolocommerce.netlify.app',
   },
