@@ -30,10 +30,10 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Old Portfolio',
-    desc: 'My old portfolio. React.js',
+    name: 'I-Mage',
+    desc: 'Imgur clone using Imgur API, React-Redux',
     img: Portfolio,
-    link: 'https://federicoacosta.netlify.app',
+    link: 'https://image-challenge.netlify.app/',
   },
   {
     id: uuidv4(),
