@@ -80,9 +80,10 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a Full-Stack designer and developer from Argentina. I create
-            professional websites. I love art and always try to show unique
-            views to the audience through my design.
+            Experienced web development professional offering expertise in web
+            development, design & usability testing. Deep technical expertise
+            combined with an understanding of the importance of client
+            engagement and satisfaction.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

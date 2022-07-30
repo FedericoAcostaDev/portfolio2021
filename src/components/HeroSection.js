@@ -161,8 +161,8 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a remote designer and developer for +2 years. I
-              love to design and make new experiences for the people.
+              Versatile JavaScript Engineer with 3+ Years of Expertise in
+              Front-End Development & Full Stack Development.
             </PText>
             <Button btnText="See my works" btnLink="/projects" />
           </div>
