@@ -161,8 +161,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              Versatile JavaScript Engineer with 3+ Years of Expertise in
-              Front-End Development & Full Stack Development.
+            +5 years Experienced Front-End Engineer with full-stack proficiency and comprehensive expertise in UX/UI, complemented by a solid background in design.
             </PText>
             <Button btnText="See my works" btnLink="/projects" />
           </div>
