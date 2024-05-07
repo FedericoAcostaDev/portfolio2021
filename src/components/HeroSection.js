@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import HeroImg from '../assets/images/hero.png';
 import Button from './Button';
+import Resume from '../assets/data/resume.pdf';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import PText from './PText';
@@ -163,7 +164,7 @@ export default function HeroSection() {
             <PText>
             +5 years Experienced Front-End Engineer with full-stack proficiency and comprehensive expertise in UX/UI, complemented by a solid background in design.
             </PText>
-            <Button btnText="See my works" btnLink="/projects" />
+            <Button btnText="See my works" btnLink="../assets/data/resume.pdf" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
