@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
 import ScrollToTop from './components/ScrollToTop';
@@ -10,26 +10,16 @@ import Projects from './pages/Projects';
 
 export default function App() {
   return (
-    <>
-      <Router>
-        <NavMenu />
-        <ScrollToTop />
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        <Footer />
-      </Router>
-    </>
+    <Router>
+      <NavMenu />
+      <ScrollToTop />
+      <Routes>
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }

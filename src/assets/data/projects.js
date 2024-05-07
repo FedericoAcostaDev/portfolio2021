@@ -11,16 +11,14 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Social Network',
-    desc:
-      'Proyect from SecondBrain study groups. Designed on Figma. React.js | NextJS | Tailwind | Firebase V9 | Formik | Storybook',
+    desc: 'Proyect from SecondBrain study groups. Designed on Figma. React.js | NextJS | Tailwind | Firebase V9 | Formik | Storybook',
     img: Social,
     link: 'https://secondbrains.netlify.app/',
   },
   {
     id: uuidv4(),
     name: 'HIV Blog',
-    desc:
-      'A React.js | MERN blog app to share information about rights, medication, and info about HIV for all the people who need containment.',
+    desc: 'A React.js | MERN blog app to share information about rights, medication, and info about HIV for all the people who need containment.',
     img: Blog,
     link: 'https://guerreros.netlify.app/',
   },
@@ -48,8 +46,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Face Detector',
-    desc:
-      'This website will recognize faces in images through an API. SQL database',
+    desc: 'This website will recognize faces in images through an API. SQL database',
     img: Face,
     link: 'https://smartfar.herokuapp.com/',
   },

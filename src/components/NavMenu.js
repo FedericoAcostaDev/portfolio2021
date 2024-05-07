@@ -93,6 +93,7 @@ export default function NavMenu() {
     <NavStyles>
       <div
         className="mobile-menu-icon"
+        aria-label="Mute volume"
         onClick={() => setShowNav(!showNav)}
         role="button"
         onKeyDown={() => setShowNav(!showNav)}
@@ -104,6 +105,7 @@ export default function NavMenu() {
       <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
         <div
           className="closeNavIcon"
+          aria-label="Close Nav"
           onClick={() => setShowNav(!showNav)}
           role="button"
           onKeyDown={() => setShowNav(!showNav)}

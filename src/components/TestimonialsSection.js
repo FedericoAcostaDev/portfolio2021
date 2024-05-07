@@ -125,6 +125,7 @@ export default function TestimonialsSection() {
         <div className="arrows">
           <div
             className="prev"
+            aria-label="Prev"
             onClick={handlePrev}
             role="button"
             tabIndex={0}
@@ -134,6 +135,7 @@ export default function TestimonialsSection() {
           </div>
           <div
             className="next"
+            aria-label="Next"
             onClick={handleNext}
             role="button"
             tabIndex={0}

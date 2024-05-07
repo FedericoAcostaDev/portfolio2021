@@ -104,8 +104,7 @@ export default function Footer() {
               },
               {
                 title: 'Argentina',
-                path:
-                  'https://www.google.com/maps/place/R%C3%ADo+Cuarto,+C%C3%B3rdoba/@-33.1242434,-64.4122289,12z/data=!3m1!4b1!4m5!3m4!1s0x95d2000fbdd02247:0xc58d0a705d7cc0e3!8m2!3d-33.1226007!4d-64.3496704',
+                path: 'https://www.google.com/maps/place/R%C3%ADo+Cuarto,+C%C3%B3rdoba/@-33.1242434,-64.4122289,12z/data=!3m1!4b1!4m5!3m4!1s0x95d2000fbdd02247:0xc58d0a705d7cc0e3!8m2!3d-33.1226007!4d-64.3496704',
               },
             ]}
           />
