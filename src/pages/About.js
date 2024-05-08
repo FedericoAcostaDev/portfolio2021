@@ -5,6 +5,7 @@ import Button from '../components/Button';
 import AboutImg from '../assets/images/about.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
+import Pdf from '../assets/data/resume.pdf';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -102,7 +103,15 @@ export default function About() {
                 place.
               </PText>
             </div>
-            <Button btnText="SEE CV" btnLink="../pu " />
+            <Button
+              onClick={() => window.open(Pdf)}
+              btnText="SEE CV"
+              btnLink={Pdf}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="CV"
+              alt="Resume"
+            />
           </div>
           <div className="right">
             <img src={AboutImg} alt="me" />
