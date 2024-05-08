@@ -139,9 +139,18 @@ export default function About() {
 
             <AboutInfoItem
               title="FrontEnd"
-              items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+              items={[
+                'JavaScript',
+                'React',
+                'Next',
+                'Redux',
+                'Unit and integration testing',
+                'HTML',
+                'CSS',
+                'CSS Frameworks',
+              ]}
             />
-            <AboutInfoItem title="BackEnd" items={['Node', 'Express', 'PHP']} />
+            <AboutInfoItem title="BackEnd" items={['Node', 'Express']} />
             <AboutInfoItem title="Database" items={['Nodemon', 'SQL']} />
             <AboutInfoItem
               title="Design"
