@@ -166,10 +166,7 @@ export default function HeroSection() {
               proficiency and comprehensive expertise in UX/UI, complemented by
               a solid background in design.
             </PText>
-            <Button
-              btnText="See my works"
-              btnLink="../assets/data/resume.pdf"
-            />
+            <Button btnText="See my works" btnLink="/Projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
